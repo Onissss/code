@@ -49,18 +49,22 @@
      
         
 
-# n=int(input("enter n < 10⁹="))
-# n1 = n
-# nsum = 0
-# a = 0
-# b = 1
-# while (nsum < n1):
-#     c = a + b
-#     a = b
-#     b = c
-#     if (b > n):
-#      print (a)
-#      nsum = (a + nsum)
-#      n = n-a
-#      a = 0
-#      b = 1
+
+from math import sqrt
+
+#Bai 1
+# a = float(input('Nhap chieu dai HCN:'))
+# b = float(input('Nhap chieu rong HCN:'))
+# CV = (a + b) * 2
+# S = a * b
+# print('Chu vi HCN la:' + str(CV))
+# print('Dien tich HCN la:' + str(S))
+
+#Bai 2
+# a = float(input('Nhap canh hinh tam giac:'))
+# b = float(input('Nhap canh hinh tam giac:'))
+# c = float(input('Nhap canh hinh tam giac:'))
+# P = 1/2 * (a + b + c)
+# S = sqrt(P * (P - a) * (P - b) * (P - c))
+# print('Dien tich tam giac la:' + str(S))
+
