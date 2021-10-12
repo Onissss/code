@@ -29,13 +29,24 @@
 // console.log(`sum of numbers: ${sum}`);
 
 //Ex4
+// const digits = [1,5,4,2,7,9,5,6,12,3]
+// console.log(digits);
+// let sum = 0
+// for (let i = 0; i < 10; i++) {
+//     const dividedBy2 = digits[i] % 2 != 0  
+//     if (dividedBy2) {
+//         sum += digits[i]
+//     }
+// }
+// console.log(`sum of oddnumbers: ${sum}`);
+
+//Ex5
 const digits = [1,5,4,2,7,9,5,6,12,3]
-console.log(digits);
-let sum = 0
+let highest = 0
 for (let i = 0; i < 10; i++) {
-    const dividedBy2 = digits[i] % 2 != 0  
-    if (dividedBy2) {
-        sum += digits[i]
+     if (digits[i] > highest) {
+        highest = digits[i]
+    
     }
 }
-console.log(`sum of oddnumbers: ${sum}`);
+console.log(highest);
