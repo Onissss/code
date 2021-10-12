@@ -46,25 +46,20 @@
 #      n = n - x
 #      x = 0
 #      y = 1
-     
-        
 
+# a = float(input('Nhap so a:'))
+# b = float(input('Nhap so b:'))
+# c = float(input('Nhap so c:'))
+# if (a + b > c) & (a + c > b) & (b + c > a) :
+#     print('a b c la 3 do dai 3 canh tam giac')
+# else :
+#     print('a b c khong phai do dai 3 canh tam giac')
 
-from math import sqrt
-
-#Bai 1
-# a = float(input('Nhap chieu dai HCN:'))
-# b = float(input('Nhap chieu rong HCN:'))
-# CV = (a + b) * 2
-# S = a * b
-# print('Chu vi HCN la:' + str(CV))
-# print('Dien tich HCN la:' + str(S))
-
-#Bai 2
-# a = float(input('Nhap canh hinh tam giac:'))
-# b = float(input('Nhap canh hinh tam giac:'))
-# c = float(input('Nhap canh hinh tam giac:'))
-# P = 1/2 * (a + b + c)
-# S = sqrt(P * (P - a) * (P - b) * (P - c))
-# print('Dien tich tam giac la:' + str(S))
-
+a = int(input('a ='))
+b = int(input('b ='))
+if (a != 0) :
+    print('Nghiem phuong trinh la:' + str(-b/a))
+elif (a == 0) & (b == 0) :
+    print('Phuong trinh vo so nghiem')
+else :
+    print('Phuong trinh vo nghiem')
