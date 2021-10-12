@@ -1,16 +1,16 @@
 //Ex1
-let i = Number(prompt('Enter a number'))
-for ( a = 1; a <= i  ; a++) {
-    console.log(a);
-}
-let numberString = ''
-const endNumber = Number(prompt('Enter end number'))
-for(let i = 1; i <= endNumber; i++) {
-    console.log(`previous result: ${numberString}`);
-    numberString += i
-    console.log(`current result: ${numberString}`);
-}
-console.log(`final result: ${numberString}`);
+// let i = Number(prompt('Enter a number'))
+// for ( a = 1; a <= i  ; a++) {
+//     console.log(a);
+// }
+// let numberString = ''
+// const endNumber = Number(prompt('Enter end number'))
+// for(let i = 1; i <= endNumber; i++) {
+//     console.log(`previous result: ${numberString}`);
+//     numberString += i
+//     console.log(`current result: ${numberString}`);
+// }
+// console.log(`final result: ${numberString}`);
 
 //Ex2
 // let n = Number(prompt('Enter a number'))
@@ -19,10 +19,10 @@ console.log(`final result: ${numberString}`);
 // let sum = 0
 // const endNumber = Number(prompt('Enter end number'))
 // for(let i = 1; i <= endNumber; i++) {
-//     //const dividedBy2 = i % 2 === 0
-//     //if(dividedBy2){
-//         sum += i
-//     }
+    // const dividedBy2 = i % 2 === 0
+    // if(dividedBy2){
+        //  sum += i
+    // }
     
 // }
 // console.log(`sum of digits from 1 to n is: ${sum}`);
