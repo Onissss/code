@@ -103,11 +103,26 @@ from math import floor, sqrt
 #     i = i + 1
 # print('sau',i,'ngay so luong virus vuot 1 ti')
 
-n = int(input('nhap so tien(trieu dong)'))
-s = n
-i = 0
-for x in range (1,11) :
-    s = s + (s * 7 / 100)
-    i = i + 1
-    print('nam thu',i, 'so tien la',round(s,2),'trieu dong')
+# n = int(input('nhap so tien(trieu dong)'))
+# s = n
+# i = 0
+# for x in range (1,11) :
+#     s = s + (s * 7 / 100)
+#     i = i + 1
+#     print('nam thu',i, 'so tien la',round(s,2),'trieu dong')
 
+# n = int(input('n='))
+# for x in range (1,11) :
+#     a = n * x
+#     print(f'{n} x {x} = {a}')
+
+def pi() :
+    pi = 0
+    n = 4
+    d = 1
+    for i in range (1,1000000) :
+        a = 2*(i % 2) - 1
+        pi += a * n / d
+        d += 2
+    print(pi)
+pi()

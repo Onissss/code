@@ -36,9 +36,9 @@ let phones = [
             }
         
         ],
-        price: 30000000 + 'vnd',
+        price: 30000000 ,
         country: 'Vietnam,USA,China',
-        phoneAvailable: 5000,
+        phoneAvailable: 53,
     },
     {
         phoneName: 'Samsung S20',
@@ -51,8 +51,46 @@ let phones = [
             }
         
         ],
-        price: 12000000 + 'vnd',
+        price: 12000000 ,
         country: 'Vietnam,USA,China',
-        phoneAvailable: 5000
+        phoneAvailable: 60
+    },
+    {
+        phoneName: 'Xiaomi Mi 11',
+        brand: [
+            {
+                brandName: 'Xiaomi'
+            },
+            {
+                foundedYear: 2010
+            }
+        
+        ],
+        price: 9000000 ,
+        country: 'Vietnam,China',
+        phoneAvailable: 45
+    },
+    {
+        phoneName: 'Oppo Reno 6',
+        brand: [
+            {
+                brandName: 'Oppo'
+            },
+            {
+                foundedYear: 2010
+            }
+        
+        ],
+        price: 10000000 ,
+        country: 'Vietnam,China',
+        phoneAvailable: 50
     }
 ]
+console.log(phones[2].brand[0]);
+phones[3].price = phones[3].price - (phones[3].price * 5 / 100)
+console.log(phones[3].price);
+for(let i = 0; i < phones.length; i++) {
+    console.log(`${phones[i].phoneName} : ${phones[i].price} vnd`);
+    valueOfPhones = phones[i].price * phones[i].phoneAvailable * 4
+}
+console.log(`value of all phones is:${valueOfPhones} vnd`);
