@@ -41,13 +41,13 @@
 // console.log(`sum of oddnumbers: ${sum}`);
 
 // Ex5
-// const digits = [1,5,4,2,7,9,5,6,12,3]
-// let highest = 0
-// for (let i = 0; i < 10; i++) {
-//      if (digits[i] > highest) {
-//         highest = digits[i]
-//     }
-// }
-// console.log(highest);
+const digits = [1,5,4,2,7,9,5,6,12,12,3]
+let highest = 0
+for (let i = 0; i < 10; i++) {
+     if (digits[i] > highest) {
+        highest = digits[i]
+    }
+}
+console.log(highest);
 
 //Ex6
