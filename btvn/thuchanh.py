@@ -15,29 +15,6 @@ from math import floor, sqrt
 #      x = 0
 #      y = 1
 
-# a = float(input('Nhap so a:'))
-# b = float(input('Nhap so b:'))
-# c = float(input('Nhap so c:'))
-# if (a + b > c) & (a + c > b) & (b + c > a) :
-#     print('a b c la 3 do dai 3 canh tam giac')
-# else :
-#     print('a b c khong phai do dai 3 canh tam giac')
-
-# n = int(input('n nguyen ='))
-# if (n > 0) :
-#     print('n duong')
-# else :
-#     print ('n am')
-
-# a = int(input('a ='))
-# b = int(input('b ='))
-# if (a != 0) :
-#     print(' phuong trinh co nghiem la:' + str(-b/a))
-# elif (a == 0) & (b == 0) :
-#     print('Phuong trinh co vo so nghiem')
-# else :
-#     print('Phuong trinh vo nghiem')
-
 # a= float(input("Nhap a ="))
 # b= float(input("Nhap b ="))
 # c= float(input("Nhap c ="))
@@ -116,13 +93,29 @@ from math import floor, sqrt
 #     a = n * x
 #     print(f'{n} x {x} = {a}')
 
-def pi() :
-    pi = 0
-    n = 4
-    d = 1
-    for i in range (1,1000000) :
-        a = 2*(i % 2) - 1
-        pi += a * n / d
-        d += 2
-    print(pi)
-pi()
+# def pi() :
+#     pi = 0
+#     n = 4
+#     d = 1
+#     for i in range (1,1000000) :
+#         a = 2*(i % 2) - 1
+#         pi += a * n / d
+#         d += 2
+#     print(pi)
+# pi()
+
+# for x in range (1 , 11) :
+#     for y in range (x , 101 , 10) :
+#         print(y , end = '')
+#     print
+
+# n = int(input('n='))
+# count = 0
+# sum = 0
+# while(n != 0) :
+#     csc = n % 10
+#     count = count + 1
+#     sum = sum + csc
+#     n = n // 10
+# print(count)
+# print(sum)

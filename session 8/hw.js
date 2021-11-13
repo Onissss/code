@@ -2,15 +2,10 @@
 // Ex1
 // let phone = {
 //     phoneName: 'iPhone 13 Pro Max',
-//     brand: [
-//         {
-//             brandName: 'Apple'
-//         },
-//         {
-//             foundedYear: 1976
-//         }
-
-//     ],
+//     brand: {
+//         name: 'Apple',
+//         foundedYear: 1976,
+//     },
 //     price: 1099 + '$',
 //     country: 'Vietnam,USA,China',
 //     phoneAvailable: 5000,
@@ -19,7 +14,7 @@
 
 // Ex2
 // phone.releaseYear = 2021
-// phone.price = 1099 + (1099 * 10 / 100) + 'S'
+// phone.price = 1099 + (1099 * 10 / 100) + '$'
 // delete phone.releaseYear
 // console.log(phone);
 
@@ -127,19 +122,15 @@
 // }
 // console.log(getUnique(['h', 'e', 'l', 'l', 'o','h']));
 
-function getUnique(arr) {
-    for (let i = 0; i < arr.length; i++) {
-        for (j = i + 1; j < arr.length; j++) {
-            if (arr[i] === arr[j]) {
-                arr.splice(j , 1)
-            }
-        }
-    }
-    // for (let i = 0; i < arr.length; i++) {
-    //     if (arr[i] === 0) {
-    //         arr.splice(i , i)
-    //     }
-    // }
-    return arr
-}
-console.log(getUnique(['h', 'e', 'l', 'l', 'o','h']));
+// function getUnique(arr) {
+//     for (let i = 0; i < arr.length; i++) {
+//         for (j = i + 1; j < arr.length; j++) {
+//             if (arr[i] === arr[j]) {
+//                 arr.splice(j , 1)
+//             }
+//         }
+//     }
+//     return arr
+// }
+// console.log(getUnique(['h', 'e', 'l', 'l', 'o','h']));
+
