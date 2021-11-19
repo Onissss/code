@@ -119,3 +119,12 @@ from math import floor, sqrt
 #     n = n // 10
 # print(count)
 # print(sum)
+
+# n = int(input('n='))
+# i = 2
+# while (n > 1) :
+#     while (n % i != 0) :
+#         i = i + 1
+#     print(i , end = '')
+#     n = n // i
+
