@@ -1,0 +1,25 @@
+/* Select by tag name */
+/* p {
+    color: red;
+    background-color: rgb(162, 175, 44);
+    font-size: 36px;
+} */
+
+/* Select by class name */
+.style-1 {
+    color: red;
+    background-color: rgb(162, 175, 44);
+    font-size: 36px;
+}
+.huge {
+    background-color: brown;
+}
+.style-2 {
+    color: rgb(48, 184, 105);
+    background-color: rgb(68, 108, 131);
+    font-size: 50px;
+}
+#unique {
+    color:rgb(85, 46, 76);
+    font-size: 60px;
+}

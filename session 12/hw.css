@@ -1,0 +1,95 @@
+.logo {
+    width: 50px;
+}
+
+.gg-logo {
+    width: 275px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+.search {
+    width: 500px;
+    height: 25px;
+    border: none;
+    border-radius: 50px;
+}
+.items {
+    margin-top: 50px;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+}
+.line1 {
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+}
+.fb {
+    border: none;
+}
+.fb:hover {
+    background-color: rgb(228, 228, 228);
+    cursor: pointer;
+}
+.insta {
+    border: none;
+}
+.insta:hover {
+    background-color: rgb(228, 228, 228);
+    cursor: pointer;
+}
+.notion {
+    border: none;
+}
+.notion:hover {
+    background-color: rgb(228, 228, 228);
+    cursor: pointer;
+}
+.med {
+    border: none;
+}
+.med:hover {
+    background-color: rgb(228, 228, 228);
+    cursor: pointer;
+}
+
+.second {
+    display: flex;
+    justify-content: space-around;
+}
+.line2 {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+}
+.youtube {
+    border: none;
+}
+.youtube:hover {
+    background-color: rgb(228, 228, 228);
+    cursor: pointer;
+}
+.pinterest {
+    border: none;
+}
+.pinterest:hover {
+    background-color: rgb(228, 228, 228);
+    cursor: pointer;
+}
+.behance {
+    border: none;
+}
+.behance:hover {
+    background-color: rgb(228, 228, 228);
+    cursor: pointer;
+}

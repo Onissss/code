@@ -1,4 +1,4 @@
-from math import floor, sqrt
+import math
 # n=int(input("Nhap n (n < 10^9)="))
 # n1 = n
 # nsum = 0
@@ -128,3 +128,23 @@ from math import floor, sqrt
 #     print(i , end = '')
 #     n = n // i
 
+# def pi(n) :
+#     p = 1
+#     a = 1
+#     for x in range (1 , n) :
+#         a = a + 2
+#         if x % 2 == 1 :
+#             p = p - 1 / a
+#         else :
+#             p = p + 1 / a
+#     return (4 * p)
+# print(pi(123456))
+
+# a = int(input('a ='))
+# def rectangle(b) :
+#     for x in range(1 , b + 1) :
+#         if (x == 1) | (x == b) :
+#             print(10 * '*')
+#         else :
+#             print('*' , ' ' * 6 , '*')
+# print(rectangle(a))

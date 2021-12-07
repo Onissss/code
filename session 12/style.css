@@ -1,0 +1,41 @@
+.logo {
+    width: 275px;
+}
+.search {
+    width: 500px;
+}
+/* Flex box */
+/* Container */
+/* Child */
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+.options {
+    display: flex;
+    justify-content: flex-end;
+}
+#gmail {
+    margin: 5px;
+}
+#pic {
+    margin: 5px;
+}
+#icon {
+    margin-left: 10px;   
+}
+.options:hover {
+    color: rgba(179, 190, 31, 0.651);
+    cursor: pointer;
+}
+/* Spacing measure */
+/* px */
+/* rem */
+/* Desktop: 1rem = 16px */
+/* Mobile: 1rem = 12px */
+/* % */
+/* vh/vw */
+/* calc(100vw - 200px) */
